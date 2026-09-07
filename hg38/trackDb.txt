@@ -10,18 +10,27 @@ longLabel Input tracks
 track Input-Unt_R12
 parent Inputs
 type bigWig
+alwaysZero on
+autoScale on
+maxHeightPixels 60
 bigDataUrl https://galaxy-main.usegalaxy.org/display_application/f9cad7b01a4721358e1186f2eb060d2b/ucsc_bigwig/main/bd26549db2bb3574/data/galaxy_f9cad7b01a4721358e1186f2eb060d2b.bigwig
 shortLabel Input-Unt_R12
 
 track Input-Erlo_R12
 parent Inputs
 type bigWig
+alwaysZero on
+autoScale on
+maxHeightPixels 60
 bigDataUrl https://galaxy-main.usegalaxy.org/display_application/f9cad7b01a472135ce8a9bff3d2515f1/ucsc_bigwig/main/6dfa3eed59a7ed4c/data/galaxy_f9cad7b01a472135ce8a9bff3d2515f1.bigwig
 shortLabel Input-Erlo_R12
 
 track Input-Osi_R12
 parent Inputs
 type bigWig
+alwaysZero on
+autoScale on
+maxHeightPixels 60
 bigDataUrl https://galaxy-main.usegalaxy.org/display_application/f9cad7b01a47213531f5539937f6f140/ucsc_bigwig/main/61df81fdf4ee2511/data/galaxy_f9cad7b01a47213531f5539937f6f140.bigwig
 shortLabel Input-Osi_R12
 
@@ -38,6 +47,9 @@ track IP-Unt-RNaseH-_R12
 parent Experimental
 container multiWig
 type bigWig
+alwaysZero on
+autoScale on
+maxHeightPixels 60
 aggregate transparentOverlay
 shortLabel IP-Unt-RNaseH-_R12
 longLabel IP-Unt-RNaseH-_R12
@@ -65,6 +77,9 @@ track IP-Unt-RNaseH+_R12
 parent Experimental
 container multiWig
 type bigWig
+alwaysZero on
+autoScale on
+maxHeightPixels 60
 aggregate transparentOverlay
 shortLabel IP-Unt-RNaseH+_R12
 longLabel IP-Unt-RNaseH+_R12
@@ -90,6 +105,9 @@ track IP-Erlo-RNaseH-_R12
 parent Experimental
 container multiWig
 type bigWig
+alwaysZero on
+autoScale on
+maxHeightPixels 60
 aggregate transparentOverlay
 shortLabel IP-Erlo-RNaseH-_R12
 longLabel IP-Erlo-RNaseH-_R12
@@ -116,6 +134,9 @@ track IP-Erlo-RNaseH+_R12
 parent Experimental
 container multiWig
 type bigWig
+alwaysZero on
+autoScale on
+maxHeightPixels 60
 aggregate transparentOverlay
 shortLabel IP-Erlo-RNaseH+_R12
 longLabel IP-Erlo-RNaseH+_R12
@@ -141,6 +162,9 @@ track IP-Osi-RNaseH-_R12
 parent Experimental
 container multiWig
 type bigWig
+alwaysZero on
+autoScale on
+maxHeightPixels 60
 aggregate transparentOverlay
 shortLabel IP-Osi-RNaseH-_R12
 longLabel IP-Osi-RNaseH-_R12
@@ -167,6 +191,9 @@ track IP-Osi-RNaseH+_R12
 parent Experimental
 container multiWig
 type bigWig
+alwaysZero on
+autoScale on
+maxHeightPixels 60
 aggregate transparentOverlay
 shortLabel IP-Osi-RNaseH+_R12
 longLabel IP-Osi-RNaseH+_R12
