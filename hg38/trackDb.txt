@@ -37,14 +37,17 @@ longLabel Experimental samples
 track IP-Unt-RNaseH-_R12
 parent Experimental
 container multiWig
+type bigWig
 aggregate transparentOverlay
 shortLabel IP-Unt-RNaseH-_R12
+longLabel IP-Unt-RNaseH-_R12
 
 track IP-Unt-RNaseH-_R12+
 parent IP-Unt-RNaseH-_R12
 type bigWig
 color 0,0,255
 bigDataUrl https://galaxy-main.usegalaxy.org/display_application/f9cad7b01a47213519b27eadb24b9b2a/ucsc_bigwig/main/4ef0d6ac888b6d4d/data/galaxy_f9cad7b01a47213519b27eadb24b9b2a.bigwig
+
 
 track IP-Unt-RNaseH-_R12-
 parent IP-Unt-RNaseH-_R12
@@ -61,8 +64,10 @@ bigDataUrl https://galaxy-main.usegalaxy.org/display_application/f9cad7b01a47213
 track IP-Unt-RNaseH+_R12
 parent Experimental
 container multiWig
+type bigWig
 aggregate transparentOverlay
 shortLabel IP-Unt-RNaseH+_R12
+longLabel IP-Unt-RNaseH+_R12
 
 track IP-Unt-RNaseH+_R12+
 parent IP-Unt-RNaseH+_R12
@@ -84,8 +89,10 @@ bigDataUrl https://galaxy-main.usegalaxy.org/display_application/f9cad7b01a47213
 track IP-Erlo-RNaseH-_R12
 parent Experimental
 container multiWig
+type bigWig
 aggregate transparentOverlay
 shortLabel IP-Erlo-RNaseH-_R12
+longLabel IP-Erlo-RNaseH-_R12
 
 track IP-Erlo-RNaseH-_R12+
 parent IP-Erlo-RNaseH-_R12
@@ -108,8 +115,10 @@ bigDataUrl https://galaxy-main.usegalaxy.org/display_application/f9cad7b01a47213
 track IP-Erlo-RNaseH+_R12
 parent Experimental
 container multiWig
+type bigWig
 aggregate transparentOverlay
 shortLabel IP-Erlo-RNaseH+_R12
+longLabel IP-Erlo-RNaseH+_R12
 
 track IP-Erlo-RNaseH+_R12+
 parent IP-Erlo-RNaseH+_R12
@@ -131,8 +140,10 @@ bigDataUrl https://galaxy-main.usegalaxy.org/display_application/f9cad7b01a47213
 track IP-Osi-RNaseH-_R12
 parent Experimental
 container multiWig
+type bigWig
 aggregate transparentOverlay
 shortLabel IP-Osi-RNaseH-_R12
+longLabel IP-Osi-RNaseH-_R12
 
 track IP-Osi-RNaseH-_R12+
 parent IP-Osi-RNaseH-_R12
@@ -155,8 +166,10 @@ bigDataUrl https://galaxy-main.usegalaxy.org/display_application/f9cad7b01a47213
 track IP-Osi-RNaseH+_R12
 parent Experimental
 container multiWig
+type bigWig
 aggregate transparentOverlay
 shortLabel IP-Osi-RNaseH+_R12
+longLabel IP-Osi-RNaseH+_R12
 
 track IP-Osi-RNaseH+_R12+
 parent IP-Osi-RNaseH+_R12
