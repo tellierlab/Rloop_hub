@@ -43,170 +43,171 @@ longLabel Experimental samples
 # CONDITION A TREATMENT 1
 # ======================
 
-track IP-Unt-RNaseH-_R12
+track IP_Unt_RH_R12
 parent Experimental
 container multiWig
 type bigWig
+aggregate transparentOverlay
+negateValues on
 alwaysZero on
 autoScale on
-maxHeightPixels 60
-aggregate transparentOverlay
-shortLabel IP-Unt-RNaseH-_R12
-longLabel IP-Unt-RNaseH-_R12
+maxHeightPixels 60:60:20
+shortLabel Unt-RH-R12
+longLabel IP untreated RNase H minus replicate 12
+visibility full
 
-track IP-Unt-RNaseH-_R12+
-parent IP-Unt-RNaseH-_R12
+track IP_Unt_RH_R12_plus
+parent IP_Unt_RH_R12
 type bigWig
+shortLabel Forward
+longLabel IP untreated RNase H minus replicate 12 forward strand
 color 0,0,255
 bigDataUrl https://galaxy-main.usegalaxy.org/display_application/f9cad7b01a47213519b27eadb24b9b2a/ucsc_bigwig/main/4ef0d6ac888b6d4d/data/galaxy_f9cad7b01a47213519b27eadb24b9b2a.bigwig
 
-
-track IP-Unt-RNaseH-_R12-
-parent IP-Unt-RNaseH-_R12
+track IP_Unt_RH_R12_minus
+parent IP_Unt_RH_R12
 type bigWig
-color 0,0,255
-negateValues on
+shortLabel Reverse
+longLabel IP untreated RNase H minus replicate 12 reverse strand
+color 255,0,0
 bigDataUrl https://galaxy-main.usegalaxy.org/display_application/f9cad7b01a472135a0b7f3b3dacaaf86/ucsc_bigwig/main/a0fe3acb3e3a9497/data/galaxy_f9cad7b01a472135a0b7f3b3dacaaf86.bigwig
-
 
 # ======================
 # CONDITION A TREATMENT 2
 # ======================
 
-track IP-Unt-RNaseH+_R12
+track IP_Unt_RNaseH_pos_R12
 parent Experimental
 container multiWig
 type bigWig
+aggregate transparentOverlay
+negateValues on
 alwaysZero on
 autoScale on
-maxHeightPixels 60
-aggregate transparentOverlay
-shortLabel IP-Unt-RNaseH+_R12
-longLabel IP-Unt-RNaseH+_R12
+maxHeightPixels 60:60:20
+shortLabel Unt RH+ R12
+longLabel IP Untreated RNaseH+ R12
 
-track IP-Unt-RNaseH+_R12+
-parent IP-Unt-RNaseH+_R12
+track IP_Unt_RNaseH_pos_R12_plus
+parent IP_Unt_RNaseH_pos_R12
 type bigWig
 color 84,84,185
 bigDataUrl https://galaxy-main.usegalaxy.org/display_application/f9cad7b01a472135c680efb1c42e3ff3/ucsc_bigwig/main/d497d4de19dbcd25/data/galaxy_f9cad7b01a472135c680efb1c42e3ff3.bigwig
 
-track IP-Unt-RNaseH+_R12-
-parent IP-Unt-RNaseH+_R12
+track IP_Unt_RNaseH_pos_R12_minus
+parent IP_Unt_RNaseH_pos_R12
 type bigWig
 color 84,84,185
-negateValues on
 bigDataUrl https://galaxy-main.usegalaxy.org/display_application/f9cad7b01a4721353e69b3f800f8e79e/ucsc_bigwig/main/dbd579342feae75d/data/galaxy_f9cad7b01a4721353e69b3f800f8e79e.bigwig
 
 # ======================
 # CONDITION B TREATMENT 1
 # ======================
 
-track IP-Erlo-RNaseH-_R12
+track IP_Erlo_RNaseH_neg_R12
 parent Experimental
 container multiWig
 type bigWig
+aggregate transparentOverlay
+negateValues on
 alwaysZero on
 autoScale on
-maxHeightPixels 60
-aggregate transparentOverlay
-shortLabel IP-Erlo-RNaseH-_R12
-longLabel IP-Erlo-RNaseH-_R12
+maxHeightPixels 60:60:20
+shortLabel Erlo RH- R12
+longLabel IP Erlotinib RNaseH- R12
 
-track IP-Erlo-RNaseH-_R12+
-parent IP-Erlo-RNaseH-_R12
+track IP_Erlo_RNaseH_neg_R12_plus
+parent IP_Erlo_RNaseH_neg_R12
 type bigWig
 color 255,0,0
 bigDataUrl https://galaxy-main.usegalaxy.org/display_application/f9cad7b01a47213559e76bdab1511863/ucsc_bigwig/main/1507d7bee98e6cc4/data/galaxy_f9cad7b01a47213559e76bdab1511863.bigwig
 
-track IP-Erlo-RNaseH-_R12-
-parent IP-Erlo-RNaseH-_R12
+track IP_Erlo_RNaseH_neg_R12_minus
+parent IP_Erlo_RNaseH_neg_R12
 type bigWig
 color 255,0,0
-negateValues on
 bigDataUrl https://galaxy-main.usegalaxy.org/display_application/f9cad7b01a472135e5f3449e0ec11851/ucsc_bigwig/main/947eedc8e71198cf/data/galaxy_f9cad7b01a472135e5f3449e0ec11851.bigwig
-
 
 # ======================
 # CONDITION B TREATMENT 2
 # ======================
 
-track IP-Erlo-RNaseH+_R12
+track IP_Erlo_RNaseH_pos_R12
 parent Experimental
 container multiWig
 type bigWig
+aggregate transparentOverlay
+negateValues on
 alwaysZero on
 autoScale on
-maxHeightPixels 60
-aggregate transparentOverlay
-shortLabel IP-Erlo-RNaseH+_R12
-longLabel IP-Erlo-RNaseH+_R12
+maxHeightPixels 60:60:20
+shortLabel Erlo RH+ R12
+longLabel IP Erlotinib RNaseH+ R12
 
-track IP-Erlo-RNaseH+_R12+
-parent IP-Erlo-RNaseH+_R12
+track IP_Erlo_RNaseH_pos_R12_plus
+parent IP_Erlo_RNaseH_pos_R12
 type bigWig
 color 185,84,84
 bigDataUrl https://galaxy-main.usegalaxy.org/display_application/f9cad7b01a4721355c5eaa74e22e4438/ucsc_bigwig/main/c88473a522aa1c8a/data/galaxy_f9cad7b01a4721355c5eaa74e22e4438.bigwig
 
-track IP-Erlo-RNaseH+_R12-
-parent IP-Erlo-RNaseH+_R12
+track IP_Erlo_RNaseH_pos_R12_minus
+parent IP_Erlo_RNaseH_pos_R12
 type bigWig
 color 185,84,84
-negateValues on
 bigDataUrl https://galaxy-main.usegalaxy.org/display_application/f9cad7b01a4721358ca4c5bca6dfa683/ucsc_bigwig/main/9c851e3eaedb3a22/data/galaxy_f9cad7b01a4721358ca4c5bca6dfa683.bigwig
 
 # ======================
 # CONDITION C TREATMENT 1
 # ======================
 
-track IP-Osi-RNaseH-_R12
+track IP_Osi_RNaseH_neg_R12
 parent Experimental
 container multiWig
 type bigWig
+aggregate transparentOverlay
+negateValues on
 alwaysZero on
 autoScale on
-maxHeightPixels 60
-aggregate transparentOverlay
-shortLabel IP-Osi-RNaseH-_R12
-longLabel IP-Osi-RNaseH-_R12
+maxHeightPixels 60:60:20
+shortLabel Osi RH- R12
+longLabel IP Osimertinib RNaseH- R12
 
-track IP-Osi-RNaseH-_R12+
-parent IP-Osi-RNaseH-_R12
+track IP_Osi_RNaseH_neg_R12_plus
+parent IP_Osi_RNaseH_neg_R12
 type bigWig
 color 255,0,255
 bigDataUrl https://galaxy-main.usegalaxy.org/display_application/f9cad7b01a4721353a359bf1773c6c9d/ucsc_bigwig/main/2983301fc92790ba/data/galaxy_f9cad7b01a4721353a359bf1773c6c9d.bigwig
 
-track IP-Osi-RNaseH-_R12-
-parent IP-Osi-RNaseH-_R12
+track IP_Osi_RNaseH_neg_R12_minus
+parent IP_Osi_RNaseH_neg_R12
 type bigWig
 color 255,0,255
-negateValues on
 bigDataUrl https://galaxy-main.usegalaxy.org/display_application/f9cad7b01a472135c946437c69dc1fc2/ucsc_bigwig/main/67c7459edc7c684f/data/galaxy_f9cad7b01a472135c946437c69dc1fc2.bigwig
-
 
 # ======================
 # CONDITION C TREATMENT 2
 # ======================
 
-track IP-Osi-RNaseH+_R12
+track IP_Osi_RNaseH_pos_R12
 parent Experimental
 container multiWig
 type bigWig
+aggregate transparentOverlay
+negateValues on
 alwaysZero on
 autoScale on
-maxHeightPixels 60
-aggregate transparentOverlay
-shortLabel IP-Osi-RNaseH+_R12
-longLabel IP-Osi-RNaseH+_R12
+maxHeightPixels 60:60:20
+shortLabel Osi RH+ R12
+longLabel IP Osimertinib RNaseH+ R12
 
-track IP-Osi-RNaseH+_R12+
-parent IP-Osi-RNaseH+_R12
+track IP_Osi_RNaseH_pos_R12_plus
+parent IP_Osi_RNaseH_pos_R12
 type bigWig
 color 185,85,185
 bigDataUrl https://galaxy-main.usegalaxy.org/display_application/f9cad7b01a472135177ea63856101bdb/ucsc_bigwig/main/21aaf8f7b41e699c/data/galaxy_f9cad7b01a472135177ea63856101bdb.bigwig
 
-track IP-Osi-RNaseH+_R12-
-parent IP-Osi-RNaseH+_R12
+track IP_Osi_RNaseH_pos_R12_minus
+parent IP_Osi_RNaseH_pos_R12
 type bigWig
 color 185,85,185
-negateValues on
 bigDataUrl https://galaxy-main.usegalaxy.org/display_application/f9cad7b01a472135be581c53a3ee3007/ucsc_bigwig/main/536f0eeb3fa1229e/data/galaxy_f9cad7b01a472135be581c53a3ee3007.bigwig
