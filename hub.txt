@@ -1,0 +1,5 @@
+hub MyRNAHub
+shortLabel DRIP-seq
+longLabel DRIP-seq stranded tracks
+genomesFile genomes.txt
+email mt477@leicester.ac.uk
