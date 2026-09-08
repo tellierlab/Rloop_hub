@@ -56,7 +56,7 @@ longLabel IP untreated RNase H minus replicate 12
 visibility full
 
 track IP_Unt_RH_R12_plus
-parent IP_Unt_RH_R12
+parent IP_Unt_RNaseH_neg_R12
 type bigWig
 shortLabel Forward
 longLabel IP untreated RNase H minus replicate 12 forward strand
@@ -64,7 +64,7 @@ color 0,0,255
 bigDataUrl https://galaxy-main.usegalaxy.org/display_application/f9cad7b01a47213519b27eadb24b9b2a/ucsc_bigwig/main/4ef0d6ac888b6d4d/data/galaxy_f9cad7b01a47213519b27eadb24b9b2a.bigwig
 
 track IP_Unt_RH_R12_minus
-parent IP_Unt_RH_R12
+parent IP_Unt_RNaseH_neg_R12
 type bigWig
 shortLabel Reverse
 longLabel IP untreated RNase H minus replicate 12 reverse strand
@@ -83,7 +83,7 @@ aggregate transparentOverlay
 alwaysZero on
 autoScale on
 maxHeightPixels 60:60:20
-shortLabel Unt RH+ R12
+shortLabel Unt_RH+_R12
 longLabel IP Untreated RNaseH+ R12
 
 track IP_Unt_RNaseH_pos_R12_plus
@@ -110,7 +110,7 @@ aggregate transparentOverlay
 alwaysZero on
 autoScale on
 maxHeightPixels 60:60:20
-shortLabel Erlo RH- R12
+shortLabel Erlo_RH-_R12
 longLabel IP Erlotinib RNaseH- R12
 
 track IP_Erlo_RNaseH_neg_R12_plus
@@ -137,7 +137,7 @@ aggregate transparentOverlay
 alwaysZero on
 autoScale on
 maxHeightPixels 60:60:20
-shortLabel Erlo RH+ R12
+shortLabel Erlo_RH+_R12
 longLabel IP Erlotinib RNaseH+ R12
 
 track IP_Erlo_RNaseH_pos_R12_plus
@@ -164,7 +164,7 @@ aggregate transparentOverlay
 alwaysZero on
 autoScale on
 maxHeightPixels 60:60:20
-shortLabel Osi RH- R12
+shortLabel Osi_RH-_R12
 longLabel IP Osimertinib RNaseH- R12
 
 track IP_Osi_RNaseH_neg_R12_plus
@@ -191,7 +191,7 @@ aggregate transparentOverlay
 alwaysZero on
 autoScale on
 maxHeightPixels 60:60:20
-shortLabel Osi RH+ R12
+shortLabel Osi_RH+_R12
 longLabel IP Osimertinib RNaseH+ R12
 
 track IP_Osi_RNaseH_pos_R12_plus
