@@ -43,16 +43,15 @@ longLabel Experimental samples
 # CONDITION A TREATMENT 1
 # ======================
 
-track IP_Unt_RH_R12
+track IP_Unt_RNaseH_neg_R12
 parent Experimental
 container multiWig
 type bigWig
 aggregate transparentOverlay
-negateValues on
 alwaysZero on
 autoScale on
 maxHeightPixels 60:60:20
-shortLabel Unt-RH-R12
+shortLabel Unt_RH-_R12
 longLabel IP untreated RNase H minus replicate 12
 visibility full
 
@@ -70,7 +69,7 @@ type bigWig
 shortLabel Reverse
 longLabel IP untreated RNase H minus replicate 12 reverse strand
 color 255,0,0
-bigDataUrl https://galaxy-main.usegalaxy.org/display_application/f9cad7b01a472135a0b7f3b3dacaaf86/ucsc_bigwig/main/a0fe3acb3e3a9497/data/galaxy_f9cad7b01a472135a0b7f3b3dacaaf86.bigwig
+bigDataUrl https://galaxy-main.usegalaxy.org/display_application/f9cad7b01a47213550bc34865db092f5/ucsc_bigwig/main/6a678bc3ba3dc51e/data/galaxy_f9cad7b01a47213550bc34865db092f5.bigwig
 
 # ======================
 # CONDITION A TREATMENT 2
@@ -81,7 +80,6 @@ parent Experimental
 container multiWig
 type bigWig
 aggregate transparentOverlay
-negateValues on
 alwaysZero on
 autoScale on
 maxHeightPixels 60:60:20
@@ -98,7 +96,7 @@ track IP_Unt_RNaseH_pos_R12_minus
 parent IP_Unt_RNaseH_pos_R12
 type bigWig
 color 84,84,185
-bigDataUrl https://galaxy-main.usegalaxy.org/display_application/f9cad7b01a4721353e69b3f800f8e79e/ucsc_bigwig/main/dbd579342feae75d/data/galaxy_f9cad7b01a4721353e69b3f800f8e79e.bigwig
+bigDataUrl https://galaxy-main.usegalaxy.org/display_application/f9cad7b01a472135d355cc4301a371df/ucsc_bigwig/main/5c99f38259c66643/data/galaxy_f9cad7b01a472135d355cc4301a371df.bigwig
 
 # ======================
 # CONDITION B TREATMENT 1
@@ -109,7 +107,6 @@ parent Experimental
 container multiWig
 type bigWig
 aggregate transparentOverlay
-negateValues on
 alwaysZero on
 autoScale on
 maxHeightPixels 60:60:20
@@ -126,7 +123,7 @@ track IP_Erlo_RNaseH_neg_R12_minus
 parent IP_Erlo_RNaseH_neg_R12
 type bigWig
 color 255,0,0
-bigDataUrl https://galaxy-main.usegalaxy.org/display_application/f9cad7b01a472135e5f3449e0ec11851/ucsc_bigwig/main/947eedc8e71198cf/data/galaxy_f9cad7b01a472135e5f3449e0ec11851.bigwig
+bigDataUrl https://galaxy-main.usegalaxy.org/display_application/f9cad7b01a472135e01a0afc5e7ca226/ucsc_bigwig/main/d4b829c15dada2b7/data/galaxy_f9cad7b01a472135e01a0afc5e7ca226.bigwig
 
 # ======================
 # CONDITION B TREATMENT 2
@@ -137,7 +134,6 @@ parent Experimental
 container multiWig
 type bigWig
 aggregate transparentOverlay
-negateValues on
 alwaysZero on
 autoScale on
 maxHeightPixels 60:60:20
@@ -154,7 +150,7 @@ track IP_Erlo_RNaseH_pos_R12_minus
 parent IP_Erlo_RNaseH_pos_R12
 type bigWig
 color 185,84,84
-bigDataUrl https://galaxy-main.usegalaxy.org/display_application/f9cad7b01a4721358ca4c5bca6dfa683/ucsc_bigwig/main/9c851e3eaedb3a22/data/galaxy_f9cad7b01a4721358ca4c5bca6dfa683.bigwig
+bigDataUrl https://galaxy-main.usegalaxy.org/display_application/f9cad7b01a472135c8c6f08e997c790e/ucsc_bigwig/main/9ad89717df3a347f/data/galaxy_f9cad7b01a472135c8c6f08e997c790e.bigwig
 
 # ======================
 # CONDITION C TREATMENT 1
@@ -165,7 +161,6 @@ parent Experimental
 container multiWig
 type bigWig
 aggregate transparentOverlay
-negateValues on
 alwaysZero on
 autoScale on
 maxHeightPixels 60:60:20
@@ -182,7 +177,7 @@ track IP_Osi_RNaseH_neg_R12_minus
 parent IP_Osi_RNaseH_neg_R12
 type bigWig
 color 255,0,255
-bigDataUrl https://galaxy-main.usegalaxy.org/display_application/f9cad7b01a472135c946437c69dc1fc2/ucsc_bigwig/main/67c7459edc7c684f/data/galaxy_f9cad7b01a472135c946437c69dc1fc2.bigwig
+bigDataUrl https://galaxy-main.usegalaxy.org/display_application/f9cad7b01a472135b5a5ef0421436173/ucsc_bigwig/main/40f3098324cb9323/data/galaxy_f9cad7b01a472135b5a5ef0421436173.bigwig
 
 # ======================
 # CONDITION C TREATMENT 2
@@ -193,7 +188,6 @@ parent Experimental
 container multiWig
 type bigWig
 aggregate transparentOverlay
-negateValues on
 alwaysZero on
 autoScale on
 maxHeightPixels 60:60:20
@@ -210,4 +204,4 @@ track IP_Osi_RNaseH_pos_R12_minus
 parent IP_Osi_RNaseH_pos_R12
 type bigWig
 color 185,85,185
-bigDataUrl https://galaxy-main.usegalaxy.org/display_application/f9cad7b01a472135be581c53a3ee3007/ucsc_bigwig/main/536f0eeb3fa1229e/data/galaxy_f9cad7b01a472135be581c53a3ee3007.bigwig
+bigDataUrl https://galaxy-main.usegalaxy.org/display_application/f9cad7b01a4721351e163181fa028597/ucsc_bigwig/main/ca26f587c26e314c/data/galaxy_f9cad7b01a4721351e163181fa028597.bigwig
